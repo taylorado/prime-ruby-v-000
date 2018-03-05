@@ -1,9 +1,9 @@
 # Add  code here!
 def prime?(number)
   if number == 1 || number < 0
-    false
+    return false
   elsif number == 2
-    true
+    return true
   else
     for i in 2...number do
       return false if number % i == 0
